@@ -1,8 +1,54 @@
 /* variables */
+:root {
+  --primary: #FFC636;
+  --secondary: #0A0B5B;
+}
 
 /* reset */
+li {
+  list-style-type: none;
+}
+
+body,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
 
 /* base styles */
+body {
+  background: var(--secondary);
+  overflow-x: hidden;
+  font-family: 'Rubik Regular';
+}
+
+.button {
+  background: none;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  padding: 6px 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.button:hover {
+  color: #222;
+  background: var(--primary);
+}
+
+input,
+textarea {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px 16px;
+  border-radius: 20px;
+  border: 2px solid #9893D8;
+  color: #F2F2F2;
+}
 
 /* fonts */
 
